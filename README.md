@@ -13,6 +13,7 @@ Requirements: Docker with Compose, Python 3.11, and Node.js 22.12+ (or a compati
 ```bash
 git clone https://github.com/lin123-ovo/cloud-agent.git
 cd cloud-agent
+chmod +x scripts/*.sh
 python3.11 -m venv .venv
 .venv/bin/python -m pip install -r requirements-local-lock.txt
 npm --prefix front/cloud_agent ci
