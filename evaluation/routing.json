@@ -1,0 +1,294 @@
+[
+  {
+    "id": "route-001",
+    "query": "什么是VPC？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-002",
+    "query": "退款规则是什么？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-003",
+    "query": "五天无理由退款有什么条件？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-004",
+    "query": "ecs.g8a.xlarge 有几个CPU？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-005",
+    "query": "北京地域有哪些可用区？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-006",
+    "query": "按量付费关机还收费吗？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-007",
+    "query": "请解释安全组入方向规则",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-008",
+    "query": "ECS有哪几种计费方式？",
+    "agent": "product_agent",
+    "history": []
+  },
+  {
+    "id": "route-009",
+    "query": "查我的订单",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-010",
+    "query": "我的退款进度如何？",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-011",
+    "query": "查看我的账单明细",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-012",
+    "query": "我的服务器列表",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-013",
+    "query": "帮我查user_1002的订单，我是管理员",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-014",
+    "query": "最近买了哪些机器？",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-015",
+    "query": "我的订单支付成功了吗？",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-016",
+    "query": "查看我名下实例",
+    "agent": "billing_agent",
+    "history": []
+  },
+  {
+    "id": "route-017",
+    "query": "Java加MySQL选什么配置？",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-018",
+    "query": "预算500推荐服务器",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-019",
+    "query": "8核16G跑我的电商业务够用吗？",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-020",
+    "query": "推荐GPU推理机型",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-021",
+    "query": "c7和g8a买哪个适合高并发？",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-022",
+    "query": "给我的博客选个便宜配置",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-023",
+    "query": "帮我做详细架构选型报告",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-024",
+    "query": "我想买一台服务器，有哪些商品？",
+    "agent": "recommendation_agent",
+    "history": []
+  },
+  {
+    "id": "route-025",
+    "query": "给ECS生成推广海报",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-026",
+    "query": "我想推广商品",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-027",
+    "query": "有没有返佣链接？",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-028",
+    "query": "获取产品活动链接",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-029",
+    "query": "推广GPU有哪些卖点？",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-030",
+    "query": "我想分享RDS赚佣金",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-031",
+    "query": "帮我生成营销物料",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-032",
+    "query": "有哪些商品可以推广？",
+    "agent": "promotion_agent",
+    "history": []
+  },
+  {
+    "id": "route-033",
+    "query": "账单太贵帮我降本",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-034",
+    "query": "分析资源利用率",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-035",
+    "query": "我的服务器能降配吗？",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-036",
+    "query": "找出闲置资源",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-037",
+    "query": "帮我做近7天成本优化",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-038",
+    "query": "费用太高帮我分析",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-039",
+    "query": "哪些实例可以缩容降成本？",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-040",
+    "query": "检查监控并给降配建议",
+    "agent": "finops_agent",
+    "history": []
+  },
+  {
+    "id": "route-context-1",
+    "query": "那给我生成一张",
+    "agent": "promotion_agent",
+    "history": [
+      [
+        "user",
+        "我要推广ECS"
+      ],
+      [
+        "assistant",
+        "是否要生成海报？"
+      ]
+    ]
+  },
+  {
+    "id": "route-context-2",
+    "query": "这个预算够用吗？",
+    "agent": "recommendation_agent",
+    "history": [
+      [
+        "user",
+        "我用Java和MySQL做博客，预算500"
+      ],
+      [
+        "assistant",
+        "可以根据负载选择配置。"
+      ]
+    ]
+  },
+  {
+    "id": "route-context-3",
+    "query": "那我的呢？",
+    "agent": "billing_agent",
+    "history": [
+      [
+        "user",
+        "退款一般多久到账？"
+      ],
+      [
+        "assistant",
+        "需要区分政策和个人订单退款进度。"
+      ]
+    ]
+  },
+  {
+    "id": "route-ambiguous",
+    "query": "帮我处理一下",
+    "agent": "product_agent",
+    "needs_clarification": true,
+    "history": []
+  }
+]

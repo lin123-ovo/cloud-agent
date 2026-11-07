@@ -1,0 +1,25 @@
+# Local configuration and credentials (keep only sanitized examples).
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Dependencies, generated output and local runtime data.
+.venv/
+.local/
+node_modules/
+dist/
+dist-ssr/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Historical working patch; current source files are included directly.
+evaluation/implementation.diff

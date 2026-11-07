@@ -1,0 +1,41 @@
+[
+  {
+    "case": "policy",
+    "status": 200,
+    "content": "The following answer is based on the project demo knowledge base.\n\nAccording to the documentation, the demo policy allows **one** five-day (no-questions-asked) refund per year per real-name authenticated account.\n\nThis is explicitly stated in two sources:\n\n- In `ecs_product_info.md`: “五天无理由退款：新购实例 5 天内支持全额退款，每个账号每年限额 1 次（最多退 10 台）.”\n- In `billing_and_refund_policy.md`: “每个实名认证账号，每个自然年仅享有 1 次‘五天无理由退款’权益（一次最多退订 10 台实例）。”\n\nSo the answer is: **1 time per year**.\n\nSources:\n- billing_and_refund_policy.md\n- ecs_product_info.md",
+    "done": true,
+    "error": null,
+    "elapsed_ms": 8740
+  },
+  {
+    "case": "recommendation",
+    "status": 200,
+    "content": "These candidates come from the project demo product catalog.\n\n- 8th-generation general-purpose instance ecs.g8a.xlarge: catalog example price ¥299.0.\n\n- RDS MySQL High Availability Edition: catalog example price ¥599.0.\n\nThe catalog does not specify billing periods, disk costs or networking fees. These prices cannot confirm your total budget. Please specify your budget period, expected concurrency, region and storage needs before checking actual quotes.\n\nSources: project demo product catalog (not live cloud quotes).",
+    "done": true,
+    "error": null,
+    "elapsed_ms": 3113
+  },
+  {
+    "case": "clarify",
+    "status": 200,
+    "content": "Could you please specify what assistance you need? For example, a product feature, billing question, promotion, resource recommendation, or cost optimization?",
+    "done": true,
+    "error": null,
+    "elapsed_ms": 1574
+  },
+  {
+    "case": "inventory",
+    "status": 200,
+    "content": "Source: Demo data; region: cn-beijing.\n\n- demo-busy: demo.g8a.4xlarge, Running, 16 vCPU / 64.0 GiB\n- demo-idle: demo.g8a.4xlarge, Running, 16 vCPU / 64.0 GiB\n- demo-missing: demo.g8a.4xlarge, Running, 16 vCPU / 64.0 GiB\n- demo-normal: demo.g8a.4xlarge, Running, 16 vCPU / 64.0 GiB\n- demo-spike: demo.g8a.4xlarge, Running, 16 vCPU / 64.0 GiB",
+    "done": true,
+    "error": null,
+    "elapsed_ms": 126
+  },
+  {
+    "case": "report_download",
+    "status": 200,
+    "english_heading": true,
+    "chinese_unchanged": true,
+    "task_id": "3ea8f29a-e99e-4566-82e9-5c44b273e915"
+  }
+]

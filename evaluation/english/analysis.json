@@ -1,0 +1,138 @@
+{
+  "id": "4c1a5930-5630-40c1-bb8c-f64345ed2368",
+  "region": "cn-beijing",
+  "source": "演示数据",
+  "status": "succeeded",
+  "results": [
+    {
+      "risks": [
+        "线性负载估算仅用于筛选，实际变更前需压测并核对可用区库存与兼容性"
+      ],
+      "metrics": {
+        "cpu": {
+          "points": 2016,
+          "average": 3.0,
+          "maximum": 3.0,
+          "coverage": 1.0,
+          "peak_coverage": 1.0
+        },
+        "memory": {
+          "points": 2016,
+          "average": 18.0,
+          "maximum": 18.0,
+          "coverage": 1.0,
+          "peak_coverage": 1.0
+        },
+        "expected_points": 2016,
+        "rejected_points": 0
+      },
+      "savings": {
+        "hours": 730,
+        "scope": "仅计算规格询价对比，排除磁盘、网络、优惠；不是实际账单或保证节省金额",
+        "source": "示例价格，非真实云报价",
+        "currency": "CNY",
+        "target_hourly": 2.0,
+        "current_hourly": 4.0,
+        "monthly_equivalent_saving": 1460.0
+      },
+      "resource": {
+        "id": "demo-idle",
+        "os": "linux",
+        "cpu": 16,
+        "name": "低利用率",
+        "spot": false,
+        "family": "demo.g8a",
+        "region": "cn-beijing",
+        "status": "Running",
+        "billing": "PostPaid",
+        "memory_gb": 64.0,
+        "updated_at": "2026-11-07T01:56:53.743331Z",
+        "environment": "demo",
+        "instance_type": "demo.g8a.4xlarge"
+      },
+      "candidate": {
+        "id": "demo.g8a.2xlarge",
+        "cpu": 8,
+        "family": "demo.g8a",
+        "memory_gb": 32,
+        "projected_cpu_max": 6.0,
+        "projected_memory_max": 36.0
+      },
+      "diagnosis": "low_utilization",
+      "window_end": "2026-11-07T00:00:00+00:00",
+      "pricing_note": "同地域、系统、币种、按小时计算规格原价对比",
+      "rule_version": "2026-10-31.v1",
+      "window_start": "2026-10-31T00:00:00+00:00"
+    }
+  ],
+  "language": "en",
+  "created_at": "2026-11-07T01:57:39.142237+00:00",
+  "updated_at": "2026-11-07T01:57:41.197658+00:00",
+  "window_end": "2026-11-07T00:00:00+00:00",
+  "environment": "demo",
+  "explanation": "This diagnosis indicates low resource utilization, suggesting potential optimization opportunities.  \nThe listed risk emphasizes that linear load estimation is only a preliminary filter—not a definitive basis for change.  \nBefore any action, manual verification of stress testing results, availability zone capacity, and instance compatibility is required.",
+  "resource_ids": [
+    "demo-idle"
+  ],
+  "rule_version": "2026-10-31.v1",
+  "window_start": "2026-10-31T00:00:00+00:00",
+  "explanation_status": "generated",
+  "steps": [
+    {
+      "tool": "list_resources",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.176004+00:00",
+      "duration_ms": 27,
+      "resource_id": null
+    },
+    {
+      "tool": "get_monitoring",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.214554+00:00",
+      "duration_ms": 16,
+      "resource_id": "demo-idle"
+    },
+    {
+      "tool": "assess_utilization",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.259599+00:00",
+      "duration_ms": 2,
+      "resource_id": "demo-idle"
+    },
+    {
+      "tool": "list_instance_types",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.311954+00:00",
+      "duration_ms": 0,
+      "resource_id": "demo-idle"
+    },
+    {
+      "tool": "quote_current",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.319230+00:00",
+      "duration_ms": 0,
+      "resource_id": "demo-idle"
+    },
+    {
+      "tool": "quote_candidate",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.326162+00:00",
+      "duration_ms": 0,
+      "resource_id": "demo-idle"
+    },
+    {
+      "tool": "model_explanation",
+      "source": "demo",
+      "status": "succeeded",
+      "started_at": "2026-11-07T01:57:39.339831+00:00",
+      "duration_ms": 1833,
+      "resource_id": null
+    }
+  ]
+}

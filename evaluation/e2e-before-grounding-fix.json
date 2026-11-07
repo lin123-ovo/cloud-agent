@@ -1,0 +1,72 @@
+[
+  {
+    "case": "policy",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "根据云服务的退款政策说明：\n\n每个实名认证账号，**每个自然年仅享有 1 次“五天无理由退款”权益**，且一次最多可退订 10 台符合条件的包年包月实例。\n\n该权益适用条件为：  \n✅ 新购的包年包月实例；  \n✅ 在购买后的 **5 天内**申请；  \n✅ 实例未发生过降配、续费等操作；  \n❌ 超出次数（如当年已使用过 1 次）或不符合上述任一条件，则无法再次享受全额无理由退款。\n\n答案来源：  \n- 向量检索：billing_and_refund_policy.md  \n- 向量检索：ecs_product_info.md",
+    "request_id": "561b69e02eb14d7c842d810044a08f86",
+    "elapsed_ms": 11485,
+    "manual_review": "pending"
+  },
+  {
+    "case": "graph",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "根据知识图谱查询结果，`ecs.g8a.4xlarge` 实例规格最多支持绑定 **8 个弹性网卡（ENI）**。\n\n该数值为实例规格的默认上限，实际可绑定数量还受所在VPC内可用私有IP地址、安全组配额及账号级ENI配额等限制，建议在使用前通过控制台或API确认当前配额。\n\n答案来源：  \n- 知识图谱",
+    "request_id": "407d0992f53549079d367d7c14f447ae",
+    "elapsed_ms": 8279,
+    "manual_review": "pending"
+  },
+  {
+    "case": "recommendation",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "🎉 为您精选的Java+MySQL博客云产品推荐（严格控制在500元预算内）：\n\n### 🌟 **首选推荐：ECS第八代通用型实例（ecs.g8a.xlarge）**\n- **价格**：¥299/年（远低于500元预算）\n- **配置**：4核CPU + 16GB内存 + 高性能SSD\n- **为什么适合您**：\n  - 完美运行Java应用（Tomcat/Spring Boot）+ MySQL数据库（可自建或搭配基础RDS）\n  - AMD EPYC处理器，单核性能强劲，Java应用响应更快\n  - 剩余201元可购买对象存储OSS（静态资源托管）或CDN加速\n- **推广收益**：**15%佣金**，每成交一单赚¥44.85\n- **立即推广** 👉 [ECS第八代通用型专属链接](https://promotion.cloud.com/ecs-g8a-special?inviter=user_1001&pid=P_ECS_G8A_XLARGE)\n\n### 💡 **备选方案：RDS MySQL高可用版**\n- **价格**：¥599/年（略超预算99元）\n- **优势**：专业级MySQL服务，自动备份、故障转移、读写分离\n- **适用场景**：如果您更看重数据库稳定性而非成本，值得多投入\n- **推广收益**：**12%佣金**，每成交一单赚¥71.88\n- **立即推广** 👉 [RDS MySQL高可用版专属链接](https://promotion.cloud.com/rds-mysql-ha?inviter=user_1001&pid=P_RDS_MYSQL_HA)\n\n💡 **组合建议**：用299元ECS实例 + 201元基础版RDS（如需），既能满足技术需求，又完全符合预算！\n\n答案来源：\n- 向量检索：无",
+    "request_id": "26454ca2d5db439290226ba762df9a9c",
+    "elapsed_ms": 20775,
+    "manual_review": "pending"
+  },
+  {
+    "case": "orders",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "已为您查询到最近的订单记录，共 3 笔，详情如下：\n\n1. **订单号**：ORD-1001-003  \n   - 商品名称：共享带宽 100Mbps  \n   - 计费方式：按量付费  \n   - 金额：¥150.50  \n   - 状态：已支付  \n   - 创建时间：2023-11-01 08:15:00  \n\n2. **订单号**：ORD-1001-002  \n   - 商品名称：RDS MySQL（c1.large）  \n   - 计费方式：包年包月  \n   - 金额：¥3,600.00  \n   - 状态：已支付  \n   - 创建时间：2023-10-05 14:30:00  \n\n3. **订单号**：ORD-1001-001  \n   - 商品名称：云服务器 ECS（g8a.4xlarge）  \n   - 计费方式：包年包月  \n   - 金额：¥12,500.00  \n   - 状态：已支付  \n   - 创建时间：2023-10-01 10:00:00  \n\n如需查看某笔订单的详细账单（如月度用量明细、发票信息等），或想了解某台实例当前的资源使用情况与优化建议，请随时告诉我，我可以继续为您查询。",
+    "request_id": "9d146b600fcd46a483f42074d59adc96",
+    "elapsed_ms": 14081,
+    "manual_review": "pending"
+  },
+  {
+    "case": "clarify",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "请问具体需要处理什么问题？例如：产品使用、订单查询、退款、计费疑问，还是其他需求？",
+    "request_id": "84d92e494eb6443182467e3295c83743",
+    "elapsed_ms": 1689,
+    "manual_review": "pending"
+  },
+  {
+    "case": "unknown",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "知识库中没有关于 ecs.quantum999 实例的 CPU 规格信息。\n\n答案来源：  \n- 知识图谱检索：未找到相关记录",
+    "request_id": "b5f6f447eb854202a2bf7000394593ad",
+    "elapsed_ms": 5498,
+    "manual_review": "pending"
+  },
+  {
+    "case": "real_catalog_guard",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "当前阿里云环境尚未接入真实订单、营销或商品目录，请使用资源查询与成本分析功能。",
+    "request_id": "6dd3da4e3e934e1aba018014d8d2a3ca",
+    "elapsed_ms": 941,
+    "manual_review": "pending"
+  }
+]

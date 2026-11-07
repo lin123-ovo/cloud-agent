@@ -1,0 +1,62 @@
+[
+  {
+    "id": "retrieval-01",
+    "query": "ecs.g8a.4xlarge 最多绑定多少网卡",
+    "source": "ecs_product_info.md",
+    "evidence": "8 个"
+  },
+  {
+    "id": "retrieval-02",
+    "query": "五天无理由退款次数限制",
+    "source": "billing_and_refund_policy.md",
+    "evidence": "1 次"
+  },
+  {
+    "id": "retrieval-03",
+    "query": "按使用流量计费入网收费吗",
+    "source": "billing_and_refund_policy.md",
+    "evidence": "免费"
+  },
+  {
+    "id": "retrieval-04",
+    "query": "抢占式实例保护期多久",
+    "source": "billing_and_refund_policy.md",
+    "evidence": "1 小时"
+  },
+  {
+    "id": "retrieval-05",
+    "query": "ecs.c7.8xlarge CPU 内存配置",
+    "source": "ecs_product_info.md",
+    "evidence": "32 vCPU"
+  },
+  {
+    "id": "retrieval-06",
+    "query": "gn7i GPU使用什么系统盘",
+    "source": "ecs_product_info.md",
+    "evidence": "PL2"
+  },
+  {
+    "id": "retrieval-07",
+    "query": "安全组入方向默认规则",
+    "source": "ecs_network_security.md",
+    "evidence": "拒绝"
+  },
+  {
+    "id": "retrieval-08",
+    "query": "如何处理 InvalidNetworkInterface.ExceedQuota",
+    "source": "ecs_troubleshooting_guide.md",
+    "evidence": "InvalidNetworkInterface.ExceedQuota"
+  },
+  {
+    "id": "retrieval-09",
+    "query": "非全额退订手续费比例",
+    "source": "billing_and_refund_policy.md",
+    "evidence": "15%"
+  },
+  {
+    "id": "retrieval-10",
+    "query": "RDS高可用主备架构",
+    "source": "rds_product_info.md",
+    "evidence": "主备"
+  }
+]

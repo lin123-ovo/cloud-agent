@@ -1,0 +1,72 @@
+[
+  {
+    "case": "policy",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "以下依据项目演示知识库回答。\n\n根据云服务的退款政策，**每个实名认证账号每年仅享有 1 次“五天无理由退款”权益**，且一次最多可退订 10 台符合条件的包年包月实例。\n\n该权益适用条件为：\n- 仅限新购的**包年包月**实例；\n- 必须在购买后的 **5 天内**申请；\n- 实例期间**未发生降配、续费等任何变更操作**。\n\n超过次数或不满足条件时，将按“非全额退订”规则处理（扣除已使用费用及15%手续费）。\n\n答案来源：\n- billing_and_refund_policy.md\n- ecs_product_info.md\n- ticket_and_support_guide.md",
+    "request_id": "ad88764b25e84f3e9e7be5705ddcc84c",
+    "elapsed_ms": 8283,
+    "manual_review": "pending"
+  },
+  {
+    "case": "graph",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "以下依据项目演示知识库回答。\n\n根据知识图谱查询结果，`ecs.g8a.4xlarge` 实例规格最多支持绑定 **8 个弹性网卡（ENI）**。\n\n该规格还具备以下网络相关能力：\n- 网络带宽：25 Gbps  \n- 网络收发包能力（PPS）：600 万  \n- vCPU：16 核  \n- 内存：64 GiB\n\n答案来源：\n- 项目知识图谱",
+    "request_id": "52aae81fd0d94c1799d04b8010408f7f",
+    "elapsed_ms": 8463,
+    "manual_review": "pending"
+  },
+  {
+    "case": "recommendation",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "以下是项目演示商品目录中的候选，供选型参考。\n\n- 第八代企业级通用型实例 ecs.g8a.xlarge：目录示例价格 ¥299.0。\n\n- 云数据库 RDS MySQL 高可用版：目录示例价格 ¥599.0。\n\n目录未提供价格的计费周期、磁盘和网络费用，暂不能据此确认是否符合你的总预算。请补充预算周期、预计并发量、地域和存储需求，再核对实际报价。\n\n答案来源：项目演示商品目录（非实时云厂商报价）。",
+    "request_id": "ac39e32538e048fc99ce9ea987206919",
+    "elapsed_ms": 2851,
+    "manual_review": "pending"
+  },
+  {
+    "case": "orders",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "已为您查询到最近的3笔订单记录，详情如下：\n\n✅ **订单 ORD-1001-003**  \n- 产品名称：共享带宽 100Mbps  \n- 计费方式：按量付费  \n- 金额：¥150.50  \n- 状态：已支付  \n- 创建时间：2023-11-01 08:15  \n\n✅ **订单 ORD-1001-002**  \n- 产品名称：RDS MySQL（c1.large）  \n- 计费方式：包年包月  \n- 金额：¥3,600.00  \n- 状态：已支付  \n- 创建时间：2023-10-05 14:30  \n\n✅ **订单 ORD-1001-001**  \n- 产品名称：云服务器 ECS（g8a.4xlarge）  \n- 计费方式：包年包月  \n- 金额：¥12,500.00  \n- 状态：已支付  \n- 创建时间：2023-10-01 10:00  \n\n如需查看更早订单、导出账单明细，或了解某笔订单对应的资源使用情况（例如该ECS实例当前是否在运行），欢迎随时告诉我，我可以继续为您查询。",
+    "request_id": "0b3c4b812ded49bf87ad4df75acde8ae",
+    "elapsed_ms": 10476,
+    "manual_review": "pending"
+  },
+  {
+    "case": "clarify",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "请问具体需要处理什么问题？例如产品使用、订单、账单、活动或资源配置等？",
+    "request_id": "01f43e258679449499f2f3e4c5037e54",
+    "elapsed_ms": 1585,
+    "manual_review": "pending"
+  },
+  {
+    "case": "unknown",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "本次未取得能够支持回答的知识库证据，请补充具体产品型号或问题；目前无法确认相关参数或政策。",
+    "request_id": "9703ec0ed2164fd3b44c61bd3b3ed0ee",
+    "elapsed_ms": 6094,
+    "manual_review": "pending"
+  },
+  {
+    "case": "real_catalog_guard",
+    "http": 200,
+    "done": true,
+    "error": null,
+    "answer": "当前阿里云环境尚未接入真实订单、营销或商品目录，请使用资源查询与成本分析功能。",
+    "request_id": "66ce5690a33749dba1799c1c2935fcb7",
+    "elapsed_ms": 1203,
+    "manual_review": "pending"
+  }
+]
